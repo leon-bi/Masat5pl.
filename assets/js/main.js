@@ -177,7 +177,7 @@
               // Reload the page after a short delay
               setTimeout(() => {
                   location.reload();
-              }, 2000); // 2 seconds delay
+              }, 2000).reset(); // 2 seconds delay
           } else {
               alert("There was an error sending your message. Please try again.");
           }
