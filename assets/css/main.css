@@ -1232,37 +1232,8 @@ section,
     "icon title"
     "icon text";
   gap: 0.25em 1em;
-   /* box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2); */
-  /* clip-path: polygon(0 0,
-      calc(100% - var(--arrowClipSize)) 0,
-      100% 50%,
-      calc(100% - var(--arrowClipSize)) 100%,
-      calc(100% - var(--arrowClipSize)) calc(100% + var(--cardsGap)),
-      0 calc(100% + var(--cardsGap))); */
-  /* position: relative; */
+   
 }
-
-/* .olcards li .content::before {
-  content: "";
-  position: absolute;
-  width: var(--labelOffset);
-  height: var(--labelOffset);
-  background: var(--cardColor);
-  left: 0;
-  bottom: 0;
-  clip-path: polygon(0 0, 100% 0, 0 100%);
-  filter: brightness(0.75);
-} */
-
-/* .olcards li .content::after {
-  content: "";
-  position: absolute;
-  height: var(--cardsGap);
-  width: var(--cardsGap);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.25), transparent 50%);
-  left: 0;
-  top: 100%;
-} */
 
 .olcards li .icon {
   grid-area: icon;
@@ -2218,4 +2189,5 @@ section,
   width: 100%;
   height: auto;
   max-width: 100%;
+
 }
